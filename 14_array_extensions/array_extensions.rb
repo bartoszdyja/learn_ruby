@@ -4,7 +4,7 @@ class Array
   end
 
   def square!
-    self.map!{|x| x**2}
+    square
   end
 
   def square
